@@ -1,0 +1,16 @@
+# Home-security-system-using-Rasberry-pi-3-s-camera-and-PIR-sensor-
+Objective : 
+the project is capturing an image when motion is detected with Raspberry Pi camera and sending that image as email notification. I have used python to write the script and have also published it. we must have two emails  (I have used Gmail), to send and receive notification.
+Hardware tools : 
+•	Raspberry Pi 3 Model B
+•	PIR Motion Sensor (generic)
+Software tools and online services :
+•	2 gmail accounts (send and receive notifications ) 
+•	SSH connection 
+Schematic :
+Steps : 
+1.	Connect Pin 3 of Raspberry Pi(5V Power) to the Power pin of the sensor.
+2.	Pin 5 of Raspberry Pi (GND) to the GND of the Sensor.
+3.	 Pin GPIO23 of Raspberry Pi to the output Pin of the sensor(of course one can use different GPIO but then one should change to Python code)
+
+
